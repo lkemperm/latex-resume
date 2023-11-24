@@ -1,0 +1,155 @@
+\documentclass[10pt,a4paper]{altacv}
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{2E64FE}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Lauren Kemperman}
+  \tagline{Civic Technologist | Graduate Student @ ATLAS Institute, CU Boulder}
+\photo{2.5cm}{LCK}
+\personalinfo{%
+  \email{lauren.kemperman3@gmail.com}
+  \phone{339-223-2401}
+  \mailaddress{770 36th street}
+  \location{Boulder, CO 80303}
+  \linkedin{linkedin.com/in/laurenkemperman}
+}
+
+
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+
+\cvsection[page1sidebar]{Summary}
+Multi-disciplinary engineer and leader aiming to leverage expertise to solve complex technology problems in the social impact space
+
+\cvsection{Industry Experience}
+
+\cvevent{Senior Software Engineer}{Code for America}{November 2022 - Present}{San Francisco, CA - remote}
+
+\begin{itemize}
+    \item Building web products using \textbf{Java Spring} and  \textbf{Ruby on Rails} for local governments to improve public benefits delivery
+\end{itemize}
+
+% \divider 
+
+\cvevent{Lead Full-Stack Software Engineer}{Matterworks, Inc.}{April 2021-November 2022}{Cambridge MA}
+\begin{itemize}
+    \item Lead software architect and engineer building internal research software written in \textbf{Python} and \textbf{Vue.js} to drive mass spectrometry data acquisition at scale 
+    \item In charge of building software team, communicating with internal and external stakeholders, and determining direction and priorities for software team
+    % \item Designed and implemented critical flexible cloud-based, scalable experiment design and capture software which interfaces with web lab automation instruments to prepare complex samples for machine learning
+\end{itemize}
+
+\cvevent{Software Engineer III}{ReadCoor, Inc. Part of 10x Genomics}{July 2020-April 2021}{Cambridge MA}
+\begin{itemize}
+    \item Developed bioinformatics pipeline software and orchestration tools with 3D-image processing, analysis and visualization capabilities using \textbf{Python}, \textbf{Golang} and \textbf{AirFlow} for the Visium Spatial Gene Expression product
+    % \item Research and optimized new image processing algorithms to transform fluorescence imaging tiles into 3D localized spots on tissue samples, improving the resolution and runtime of instrument software
+    % \item Added support for new imaging modalities into widely-used spatial analysis software product to support Pathologist workflows
+    \item ReadCoor was acquired by 10x genomics for 350 million 
+\end{itemize}
+
+\cvevent{Machine Learning Software Engineer}{Iterative Health}{September 2018-July 2020}{Cambridge MA}
+
+\begin{itemize}
+\item Founding member of 4-person engineering team at MIT-founded startup company with a goal of improving outcomes in colorectal cancer screening by providing computer-aided detection technologies to Doctors
+\item Worked with engineering team and faculty advisor Dr. Polina Golland to develop real-time computer vision object detection model for \textit{Skout} product to detect and localize polyp tissues during colonoscopy procedures - now approved by FDA 
+\item Designed and developed scalable, automated pipelines for training and evaluating object detection models with multi-cloud (\textbf{AWS} and \textbf{GCP}) support 
+\item Lead engineer responsible for software quality reporting to the FDA for de-novo clinical trial submission 
+\item Designed and built software to automatically remove PII from colonoscopy videos to support acquisition of large video datasets 
+\end{itemize}
+
+% \divider 
+
+% \cvevent{Data Engineer}{Lockheed Martin, Rotary and Mission Systems}{August 2017-September 2018}{Rochester NY}
+% \begin{itemize}
+% \item Designed and built software tools and algorithms that helped customers sustain aircraft and perform preventative maintenance based on machine learning and statistical indicators
+% \item Conducted internal research and feasibility studies for applying new Data Science and Machine Learning algorithms to problems in the Aerospace industry
+% \end{itemize}
+
+% \divider 
+
+% \cvevent{Bioinformatics Undergraduate Researcher}{University of Rochester Medical Center, Department of Biostatistics}{August 2015-October 2018}{Rochester, NY}
+% \begin{itemize}
+% \item Assistant to Dr. McCall to develop methods for preprocessing and analyzing genomic data in effort to identify biomarkers for cancer and disease.
+% \item Developed interactive web application using R and Shiny framework to assess methods for microRNA expression estimation,
+% visualize comparisons between methods, and analyze the effect of changing quality thresholds
+% \item Paper on methods and application published in f100 research
+% \end{itemize}
+
+% \divider 
+
+% \cvevent{Public Health Researcher: Asthma Study}{University of Rochester, Wireless Communication Group}{Summer 2015-Summer 2016}{Rochester, NY}
+% \begin{itemize}
+% \item Engaged medical professionals and end users in order to incorporate proven public health measures into research design of project
+% \item Designed, developed and tested android application with goal of helping families gain control over asthma
+% \item Built utilities into the application that help families get connected to resources they need, logging asthma symptoms, and creating asthma action plans 
+% \item Built and maintained database used to analyze usage statistics on application
+% \end{itemize}
+
+
+
+
+% \end{itemize}
+
+% \divider
+
+% \cvevent{Technology Analyst Intern}{J.P Morgan Chase \& Co}{Summer 2016}{New York, NY}
+% \begin{itemize}
+% \item Internship in the technology sector at JPMorgan Chase
+% \item Designed an algorithm and web application implementing algorithm to automate a previously time consuming process necessary for effective portfolio trading management
+% \item Presented results and gave demonstration to the global head of the team
+% \end{itemize}
+
+% \divider
+
+% \cvsection{Skills}
+
+% \cvskill{Data Cleaning}{5}
+% % \divider
+
+% \cvskill{Data Visualization}{4}
+% % \divider
+
+% \cvskill{Databases}{4}
+% % \divider
+
+% \cvskill{Research}{4}
+
+% \cvskill{Presentations}{4}
+
+% \cvskill{Statistics}{4}
+% % \divider
+% \cvskill{Machine Learning}{3}
+% \cvskill{Web Development}{3}
+% \cvskill{Computer Vision}{3}
+
+
+\end{document}
